@@ -1,11 +1,57 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>演舞動画公開準備中</title>
-  </head>
-  <body style="text-align:center;top:100px;font-family:sans-serif;">
-    <h1>🎥演舞動画公開準備中</h1>
-    <p>〇月〇日公開予定！</p>
-  </body>body
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>演舞動画公開ページ</title>
+
+<script>
+// ▼ここだけ変更する
+var youtube = "";
+// 例：
+// var youtube = "https://youtu.be/XXXXXXXXXXX";
+
+// URLが入っていたら自動でYouTubeへ移動
+if (youtube !== "") {
+window.location.replace(youtube);
+}
+</script>
+
+<style>
+body {
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+text-align: center;
+font-family: sans-serif;
+background: #f5f5f5;
+color: #333;
+}
+
+.box {
+padding: 30px;
+}
+
+h1 {
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+p {
+font-size: 1.1rem;
+line-height: 1.8;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>🎬 演舞動画公開準備中</h1>
+<p>
+演舞動画は現在準備中です。<br>
+公開まで今しばらくお待ちください。
+</p>
+</div>
+</body>
 </html>
